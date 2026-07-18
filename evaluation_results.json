@@ -1,0 +1,77 @@
+{
+  "per_type": {
+    "ADDRESS": {
+      "true_positives": 29,
+      "false_positives": 19,
+      "false_negatives": 3,
+      "precision": 0.6042,
+      "recall": 0.9062,
+      "f1_score": 0.725
+    },
+    "CIN": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "EMAIL_ADDRESS": {
+      "true_positives": 25,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "precision": 0.9615,
+      "recall": 1.0,
+      "f1_score": 0.9804
+    },
+    "ORGANIZATION": {
+      "true_positives": 21,
+      "false_positives": 4,
+      "false_negatives": 0,
+      "precision": 0.84,
+      "recall": 1.0,
+      "f1_score": 0.913
+    },
+    "PERSON": {
+      "true_positives": 30,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "precision": 0.9677,
+      "recall": 1.0,
+      "f1_score": 0.9836
+    },
+    "PHONE_NUMBER": {
+      "true_positives": 18,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "SEBI_REG": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "WEBSITE": {
+      "true_positives": 11,
+      "false_positives": 4,
+      "false_negatives": 0,
+      "precision": 0.7333,
+      "recall": 1.0,
+      "f1_score": 0.8462
+    }
+  },
+  "overall": {
+    "true_positives": 144,
+    "false_positives": 29,
+    "false_negatives": 3,
+    "accuracy": 0.8182,
+    "precision": 0.8324,
+    "recall": 0.9796,
+    "f1_score": 0.9
+  }
+}

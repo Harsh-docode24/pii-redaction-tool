@@ -1,0 +1,2 @@
+python-docx>=0.8.11
+faker>=18.0.0

@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Original input document (contains real PII)
+input.docx
+
+# Extracted raw text (contains real PII)
+extracted_text.txt
+
+# Files containing original PII or mappings back to it
+pii_mapping.json
+detection_report.json
+ground_truth.json
+
+# Diagnostic scripts
+scan_leaks.py
+scan_context.py
+scan_xml.py
+config.py
+extract_text.py
+
+# IDE
+.vscode/
+.idea/
